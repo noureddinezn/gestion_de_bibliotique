@@ -43,4 +43,5 @@ if (!function_exists('isLoggedIn')) {
         </div>
     </nav>
     <main class="container">
+        <?php flashMessage(); ?>
         
